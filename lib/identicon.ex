@@ -6,6 +6,11 @@ defmodule Identicon do
     |> pick_color
     |> build_grid
     |> filter_odd_squares
+    |> build_pixel_map
+  end
+
+  defp build_pixel_map(%Identicon.Image{grid: grid} = image) do
+
   end
 
   defp filter_odd_squares(%Identicon.Image{grid: grid} = image) do
