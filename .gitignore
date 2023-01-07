@@ -24,3 +24,6 @@ identicon-*.tar
 
 # Temporary files, for example, from tests.
 /tmp/
+
+# ElixirLS files, from vs-code
+.elixir_ls/
