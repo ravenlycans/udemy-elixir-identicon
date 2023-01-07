@@ -27,3 +27,6 @@ identicon-*.tar
 
 # ElixirLS files, from vs-code
 .elixir_ls/
+
+# Program output
+/*.png
